@@ -1,9 +1,3 @@
-import art
-
-
-print("Welcome to the secret auction.")
-
-
 def get_top_bid(bidding_dictionary):
     highest_bid = 0
     highest_bidder = ""
@@ -16,6 +10,8 @@ def get_top_bid(bidding_dictionary):
 
     print(f"The winner is {highest_bidder} with a bid of ${highest_bid}!")
 
+
+print("Welcome to the secret auction.")
 
 auction_dictionary = {}
 auction_running = True
