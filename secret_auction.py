@@ -1,7 +1,6 @@
 import art
 
 
-print(art.logo)
 print("Welcome to the secret auction.")
 
 
